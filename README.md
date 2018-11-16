@@ -22,6 +22,7 @@ the example result:
 
 ![avatar](./example.jpg)
 
+the example video is downloaded from the free video site "pexels videos".
 
 ### \<video filename\>
 video filename (string)
