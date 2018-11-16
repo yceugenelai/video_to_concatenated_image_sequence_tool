@@ -1,13 +1,9 @@
 # video_to_image_tool
 a video to image tool to generate dataset
 
-requirements:
+requirements: python 2.7
 
-python 2.7
-
-packages:
-
-imageio, scikit-image
+packages: imageio, scikit-image
 
 ## usage
 python convertor.py convertor.py \<video filename\> \<concat_axis\> \<concat_size\> \<frame range\> \<frame clip\> \<resize\>
@@ -20,7 +16,9 @@ it converts the video "Ballet Dancer On Stage.mp4" to the horizontally concatena
 
 Each frame is cropped by (360,920) to (0,720) and then resize to 256 * 256
 
+the example result:
 
+![avatar](./example.jpg)
 
 
 ### \<video filename\>
