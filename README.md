@@ -1,5 +1,6 @@
-# video_to_image_tool
-a video to image tool to generate dataset
+# video_to_concatenated_image_sequence_tool
+
+a video to image tool to generate concatenated image sequence dataset
 
 requirements: python 2.7
 
@@ -15,6 +16,7 @@ python convertor.py "Ballet Dancer On Stage.mp4" 1 3 "62,82" "0,360,720,920" "25
 it converts the video "Ballet Dancer On Stage.mp4" to the horizontally concatenated image sequence from the frame 62 to 82.
 
 Each frame is cropped by (360,920) to (0,720) and then resize to 256 * 256
+
 
 the example result:
 
