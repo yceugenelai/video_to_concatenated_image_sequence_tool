@@ -1,6 +1,6 @@
 # video_to_concatenated_image_sequence_tool
 
-a video to image tool to generate concatenated image sequence dataset
+a video to image tool to generate concatenated image sequence dataset. can be used as the Recycle-gan training data.
 
 requirements: python 2.7
 
